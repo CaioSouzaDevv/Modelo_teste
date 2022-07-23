@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    }
+    
+    body {
+        font-family: Nunito, sans-serif;
+        color: #1c1c1c;
+    }
+    
+    h1, h2, h3 {
+        font-family: Asap, sans-serif;
+        color: #1c1c1c;
+    }
+    
+    .mdl-botao {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 30px;
+        background-color: #191970;
+        font: .9em;
+        border-radius: 5px;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #191970;
+    }
+    
+    nav > a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 800;
+        font-size: 32px;
+        font-family: Yellowtail, serif;
+    }
+    nav ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+        
+    }
+    
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav ul li a {
+        width: 100%;
+        display: inline-block;
+        display: 10ox 0;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("../images/camera.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    
+    
+    
+        }
+    header h1 {
+    color: #ffffff;
+    }
+    
+    header p {
+        margin-bottom: 2em;
+    }
+    
+    #mdl-sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px 10px 20px 20px;
+        background-color: #191970;
+        color: #ffffff;
+    }
+    #mdl-sobre h2 {
+        color: #ffffff;
+    }
+    
+    #mdl-sobre p {
+        margin-bottom: 2.5em;
+        max-width: 1000px;
+    }
+    #mdl-sobre .mdl-botao {
+        background-color: #f1f1f1;
+        color: #1c1c1c;
+    }
+    
+    
+    #mdl-serviços {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    #mdl-serviços div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    #mdl-fotos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    #mdl-fotos h2 {
+        margin-bottom: 20px;
+    }
+    #mdl-fotos img {
+        width: 100%;
+    }
+    
+    #mdl-contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2px;
+    }
+    #mdl-contato h2 {
+        color: #000000;
+    }
+    
+    footer {
+        text-align: center;
+        padding: 10px;
+        background-color:#191970 ;
+        color: #ffffff;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #00ffff;
+    }
+    
+    @media screen and (min-width: 768px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+    
+    
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+    
+    #mdl-sobre {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+    
+    #mdl-servicos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    #mdl-servicos h2 {
+        text-align: center;
+        width: 100%;
+    
+    }
+    #mdl-servicos div {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+    #mdl-fotos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    
+    }
+    #mdl-fotos h2 {
+        width: 100%;
+        text-align: 100%;
+    }
+    #mdl-fotos img {
+        width: 33.333333333%;
+    }
+    
+    #mdl-contato {
+        flex: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    #mdl-contato h2, #contato p {
+        width: 100%;
+    }
+    }
